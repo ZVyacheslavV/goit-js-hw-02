@@ -1,8 +1,8 @@
-"use strict";
+'use strict';
 
 function makeTransaction(quantity, pricePerDroid, customerCredits) {
   const sum = quantity * pricePerDroid;
-  if (sum > customerCredits) return "Insufficient funds!";
+  if (sum > customerCredits) return 'Insufficient funds!';
   else return `You ordered ${quantity} droids worth ${sum} credits!`;
 }
 
